@@ -65,7 +65,6 @@ builder.Services.AddRazorPages(options =>
     options.Conventions.AddPageRoute("/Employer/RemoveEmployer", "/remove-employer");
     options.Conventions.AddPageRoute("/Help/AccessibilityStatement", "/accessibility-statement");
     options.Conventions.AddPageRoute("/Help/Cookies", "/cookies");
-    options.Conventions.AddPageRoute("/Help/Privacy", "/privacy");
     options.Conventions.AddPageRoute("/Help/TermsAndConditions", "/terms-and-conditions");
     options.Conventions.AddPageRoute("/Provider/SearchFilters", "/filters");
     options.Conventions.AddPageRoute("/Provider/SearchFilterDetails", "/filters-edit");
@@ -81,7 +80,6 @@ builder.Services.AddRazorPages(options =>
     options.Conventions.AllowAnonymousToPage("/Start");
     options.Conventions.AllowAnonymousToPage("/AccessibilityStatement");
     options.Conventions.AllowAnonymousToPage("/Help/Cookies");
-    options.Conventions.AllowAnonymousToPage("/Help/Privacy");
     options.Conventions.AllowAnonymousToPage("/TermsAndConditions");
 })
     .AddMvcOptions(options =>
